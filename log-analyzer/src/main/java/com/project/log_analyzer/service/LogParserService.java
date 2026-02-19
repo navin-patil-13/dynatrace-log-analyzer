@@ -45,7 +45,7 @@ public class LogParserService {
                 new CSVParser(
                     reader, 
                     CSVFormat.DEFAULT.builder()
-                    .setHeader("timestamp", "level", "host", "message")
+                    .setHeader("timestamp", "level", "message", "host")
                     .setSkipHeaderRecord(true).build())) {
                 return csvParser.stream().map(record -> new LogEntry(
                     record.get("timestamp"),

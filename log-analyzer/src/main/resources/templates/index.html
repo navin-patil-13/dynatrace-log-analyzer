@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Log Analyzer</title>
+    </head>
+    <body>
+        <h1>Log Analyzer</h1>
+        <form action="/api/logs/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".json,.csv" required>
+            <button type="submit">Upload</button>
+        </form>
+        <p>Supported formats: JSON, CSV</p>
+        <p>Upload your log files for analysis.</p>
+        <p>After uploading, you can use the API endpoints to search and analyze your logs.</p>
+        <p>Example API endpoints:</p>
+        <ul>
+            <li><code>GET /api/logs/</code> - <a href="/api/logs/">Get all logs</a></li>
+            <li><code>GET /api/logs/search?host=example.com&level=ERROR</code> - <a href="/api/logs/search?host=example.com&level=ERROR">Search logs by host and level</a></li>
+            <li><code>GET /api/logs/server?host=example.com</code> - <a href="/api/logs/server?host=example.com">Search logs by host</a></li>
+        </ul>
+    </body>
+</html>

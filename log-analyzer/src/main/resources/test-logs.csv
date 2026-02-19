@@ -1,0 +1,40 @@
+timestamp,level,message,host
+2026-02-18T10:00:00,ERROR,Database connection failed,pune-server-1
+2026-02-18T10:01:00,INFO,User login successful,mumbai-server-2
+2026-02-18T10:02:00,WARN,Memory usage high,pune-server-1
+2026-02-18T10:03:00,INFO,Cache cleared,delhi-server-3
+2026-02-18T10:04:00,INFO,Scheduled job started,bengaluru-server-4
+2026-02-18T10:05:00,ERROR,Payment processing failed,mumbai-server-2
+2026-02-18T10:06:00,WARN,Disk space low,pune-server-1
+2026-02-18T10:07:00,INFO,New user registered,delhi-server-3
+2026-02-18T10:08:00,DEBUG,Debugging session started,bengaluru-server-4
+2026-02-18T10:09:00,INFO,File uploaded successfully,hyderabad-server-5
+2026-02-18T10:10:00,ERROR,Null pointer exception in service,mumbai-server-2
+2026-02-18T10:11:00,WARN,High CPU temperature,pune-server-1
+2026-02-18T10:12:00,INFO,Email sent,delhi-server-3
+2026-02-18T10:13:00,INFO,Cache warmup completed,bengaluru-server-4
+2026-02-18T10:14:00,ERROR,Timeout while calling external API,mumbai-server-2
+2026-02-18T10:15:00,WARN,Slow database query detected,delhi-server-3
+2026-02-18T10:16:00,INFO,Metrics exported,pune-server-1
+2026-02-18T10:17:00,DEBUG,GC completed,bengaluru-server-4
+2026-02-18T10:18:00,INFO,User session expired,hyderabad-server-5
+2026-02-18T10:19:00,ERROR,Failed to write to disk,pune-server-1
+2026-02-18T10:20:00,WARN,Deprecated API usage,delhi-server-3
+2026-02-18T10:21:00,INFO,Health check passed,mumbai-server-2
+2026-02-18T10:22:00,DEBUG,Connection pool stats,bengaluru-server-4
+2026-02-18T10:23:00,INFO,Backup completed,hyderabad-server-5
+2026-02-18T10:24:00,ERROR,Authentication failed,mumbai-server-2
+2026-02-18T10:25:00,WARN,Configuration value missing,pune-server-1
+2026-02-18T10:26:00,INFO,Feature flag toggled,delhi-server-3
+2026-02-18T10:27:00,INFO,Task queue drained,bengaluru-server-4
+2026-02-18T10:28:00,ERROR,OutOfMemoryError in worker,mumbai-server-2
+2026-02-18T10:29:00,WARN,SSL certificate expiring,hyderabad-server-5
+2026-02-18T10:30:00,INFO,Service restarted,pune-server-1
+2026-02-18T10:31:00,DEBUG,Thread pool size adjusted,bengaluru-server-4
+2026-02-18T10:32:00,INFO,Data archived,delhi-server-3
+2026-02-18T10:33:00,ERROR,External dependency unavailable,mumbai-server-2
+2026-02-18T10:34:00,WARN,High latency detected,pune-server-1
+2026-02-18T10:35:00,INFO,License check passed,hyderabad-server-5
+2026-02-18T10:36:00,DEBUG,Profiling snapshot taken,bengaluru-server-4
+2026-02-18T10:37:00,INFO,Reindexing completed,delhi-server-3
+2026-02-18T10:38:00,INFO,System maintenance scheduled,mumbai-server-2
